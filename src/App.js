@@ -9,6 +9,7 @@ import createBrowserHistory from 'history/createBrowserHistory'
 import { TransitionGroup } from 'react-transition-group';
 import Transition from './components/transition';
 
+import { Redirect } from 'react-router';
 import { Switch, Route, HashRouter } from 'react-router-dom'
 
 const history = createBrowserHistory()
@@ -48,6 +49,9 @@ const   Routes = (props) =>
     <Transition {...props} key="contact">
       <Contact />
     </Transition>
+  )}/>
+  <Route path="/*" render={() => (
+    <Redirect to="/" />
   )}/>
 </Switch>
 

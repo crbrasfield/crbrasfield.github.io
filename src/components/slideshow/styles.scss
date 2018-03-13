@@ -1,0 +1,22 @@
+.picture {
+    float: right;
+    height: 500px;
+    width: 400px;
+    background-position: center top;
+    background-size: cover;
+    margin: 20px;
+    border-radius: 1%;
+    // box-shadow: 2px 2px 15px grey;
+    transition: all 1s ease;
+  
+    @media (max-width: 1000px) {
+      height: 350px;
+    }
+  
+    @media (max-width: 700px) {
+      display: none;
+    }
+  
+     transition: all 1s ease;
+  }
+  

@@ -85,16 +85,3 @@ a:visited {
   display: inline-block;
   margin: 0 auto;
   text-align: left; }
-
-.picture {
-  float: right;
-  height: 500px;
-  margin: 20px;
-  border-radius: 1%;
-  transition: all 0.5s ease; }
-  @media (max-width: 1000px) {
-    .picture {
-      height: 350px; } }
-  @media (max-width: 700px) {
-    .picture {
-      display: none; } }

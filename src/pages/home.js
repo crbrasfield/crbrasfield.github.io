@@ -102,12 +102,14 @@ export default (props) => (
             endDate="Current"
           >
             Promoted from an intern to a full time Front End Developer. Assigned the task
-            of building out the front end for the core application. This included building/improving
-            reusable UI components, implementing responsive design & communicating with a
-            Node API. Engineering direction changed mid project, which led to taking on a new task
+            of front end feature development for the core application. This included building/improving
+            reusable UI components, implementing responsive design & implementing the front end functionality
+            for several features, which involved communicating with the .NET api.
+            Engineering direction changed mid project, which led to taking on a new task
             of integrating React/Redux into an existing Backbone.js application. Currently introducing
             myself into the ASP.NET backend, enabling myself to work from a full stack approach.
             <br />
+            <br />            
             <span className="small bold">*Much more information upon request</span>
           </JobItem>
           <JobItem

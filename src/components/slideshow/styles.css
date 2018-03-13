@@ -1,0 +1,16 @@
+.picture {
+  float: right;
+  height: 500px;
+  width: 400px;
+  background-position: center top;
+  background-size: cover;
+  margin: 20px;
+  border-radius: 1%;
+  transition: all 1s ease;
+  transition: all 1s ease; }
+  @media (max-width: 1000px) {
+    .picture {
+      height: 350px; } }
+  @media (max-width: 700px) {
+    .picture {
+      display: none; } }

@@ -130,21 +130,3 @@ a:visited {
   margin: 0 auto;
   text-align: left;
 }
-
-.picture {
-  float: right;
-  height: 500px;
-  margin: 20px;
-  border-radius: 1%;
-  // box-shadow: 2px 2px 15px grey;
-
-  @media (max-width: 1000px) {
-    height: 350px;
-  }
-
-  @media (max-width: 700px) {
-    display: none;
-  }
-
-   transition: all 0.5s ease;
-}

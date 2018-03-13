@@ -1,6 +1,6 @@
-import React from 'react'
-import family from '../images/family.jpg'
-import Transition from '../components/transition'
+import React from 'react';
+import Transition from '../components/transition';
+import SlideShow from '../components/slideshow';
 
 //
 
@@ -8,26 +8,28 @@ export default () => (
     <div>
       <div className="container primary">
         <div className="wrap">
-        <img className="picture" src={family} />      
+          <SlideShow />
             <h1>About myself...</h1>
             <div>
               <h3>
                 Basically, I'm a 25 year old nerd living the dream.
               </h3>
               <div>
-                I'm a Birmingham native with a passion for technology & videogames.
+                I'm a Birmingham native with a passion for technology and videogames.
                 I consider myself <i>extremely</i> lucky to be able to make a living working with computers.
               </div>
               <br />
               <div>
-                The majority of my week is spent looking at a monitor, so I always jump at the chance to
-                get outside and spend some time in the sun with my dog, Benji.
+                I spend most of my day is spent inside on the computer or playing video games, so I
+                enjoy spending the rest of that time outdoors with my friends, family and dog.
+              </div>
+              <br />              
+              <div>
+                I watch a lot of youtube and eat a lot of chipotle.
               </div>
               <br />
               <div>
-                I'm a soon to be husband (March 31, 2018)! Animal rescue & fostering
-                are very important to me. Adopting my dog Benji was one of the best decisions
-                I've ever made.
+                As of March 31, 2018 I will be a husband!
               </div>
             </div>
         </div>

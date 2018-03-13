@@ -1,4 +1,100 @@
+@import url("https://fonts.googleapis.com/css?family=Mate");
+@import url("https://fonts.googleapis.com/css?family=Abril+Fatface");
 body {
-  margin: 0;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  height: 100vh;
+  width: 100vw;
   padding: 0;
-  font-family: sans-serif; }
+  margin: 0;
+  font-size: 16px; }
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Mate', serif;
+  margin: 0;
+  margin-bottom: 10px; }
+
+h1 {
+  font-size: 45px; }
+
+p {
+  margin: 2px 0; }
+
+.small {
+  font-size: 12px; }
+
+.bold {
+  font-weight: bold; }
+
+.center {
+  text-align: center; }
+
+.left {
+  text-align: left; }
+
+ul {
+  padding: 0;
+  margin: 0; }
+  ul li {
+    list-style-type: none;
+    margin-top: 10px; }
+
+.container .wrap {
+  max-width: 1000px;
+  padding: 40px 20px;
+  margin: 0 auto;
+  overflow: auto;
+  border-bottom: 1px solid lightgray; }
+  @media (max-width: 1000px) {
+    .container .wrap {
+      padding: 30px 40px; } }
+
+.container:last-of-type .wrap {
+  border: 0; }
+
+.row {
+  display: flex; }
+  .row .column {
+    flex: 1; }
+
+.icon {
+  font-size: larger;
+  margin-right: 20px; }
+  .icon.twitter {
+    color: #00aced; }
+  .icon.facebook {
+    color: #3b5998; }
+  .icon.linkedin {
+    color: #0077b5; }
+
+a:visited {
+  color: inherit; }
+
+.links {
+  text-align: center;
+  margin-top: 30px;
+  margin: 30px 0;
+  display: flex;
+  justify-content: space-around; }
+  .links .icon {
+    margin: 0; }
+
+.large {
+  font-size: 30px; }
+
+.contact-card {
+  display: inline-block;
+  margin: 0 auto;
+  text-align: left; }
+
+.picture {
+  float: right;
+  height: 500px;
+  margin: 20px;
+  border-radius: 1%;
+  transition: all 0.5s ease; }
+  @media (max-width: 1000px) {
+    .picture {
+      height: 350px; } }
+  @media (max-width: 700px) {
+    .picture {
+      display: none; } }

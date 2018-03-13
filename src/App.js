@@ -1,21 +1,55 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Header from './components/header'
+// import logo from './logo.svg';
+import './index.css';
+import Home from './pages/home';
+import About from './pages/about';
+import Contact from './pages/contact';
+import createBrowserHistory from 'history/createBrowserHistory'
+import { TransitionGroup } from 'react-transition-group';
+import Transition from './components/transition';
+
+import { Switch, Route, HashRouter } from 'react-router-dom'
+
+const history = createBrowserHistory()
+
+
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
+      <HashRouter>
+        <div>
+          <Header />
+          <div className="content">
+          <TransitionGroup enter exit>
+            <Routes />
+          </TransitionGroup>
+          </div>
+        </div>
+      </HashRouter>
     );
   }
 }
+
+const   Routes = (props) =>
+<Switch>
+  <Route exact path="/" render={() => (
+    <Transition {...props} key="home">
+      <Home />
+    </Transition>
+  )}/>
+  <Route path="/about" render={() => (
+    <Transition {...props} key="about">
+      <About />>
+    </Transition>
+  )}/>
+  <Route path="/contact" render={() => (
+    <Transition {...props} key="contact">
+      <Contact />
+    </Transition>
+  )}/>
+</Switch>
+
 
 export default App;

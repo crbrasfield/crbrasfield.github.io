@@ -29,7 +29,7 @@ export default () => (
           </div>
         </div>
       </div>
-      <div className="container primary">
+      <div className="container secondary">
         <div className="wrap">
           <div className="row">
             <div className="column">
@@ -63,7 +63,7 @@ export default () => (
           </div>
         </div>
       </div>
-      <div className="container secondary">
+      <div className="container">
         <div className="wrap center">
         <h3>
           Things I enjoy

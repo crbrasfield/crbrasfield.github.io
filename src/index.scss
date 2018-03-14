@@ -50,6 +50,8 @@ p {
 }
 
 .icon {
+  -webkit-filter: drop-shadow(2px 2px 2px #222);
+  filter: drop-shadow(2px 2px 2px #222);
   margin-top: 20px;
 }
 
@@ -84,12 +86,21 @@ ul {
 }
 
 .container {
+  &.secondary {
+    background: #2b303b;
+    color: white;
+
+    h3 {
+      color: #c0c5ce;
+    }
+  }
+
   .wrap {
     max-width: 1000px;
     padding: 40px 20px;
     margin: 0 auto;
     overflow: auto;
-    border-bottom: 1px solid #8fa1b3;      
+    // border-bottom: 1px solid #8fa1b3;      
 
     @media (max-width: 1000px) {
       padding: 30px 40px;
@@ -184,7 +195,7 @@ pre {
     flex: 1;
     padding: 0 5px;
 
-    @media (max-width: 600px) {
+    @media (max-width: 650px) {
       margin: 10px 0;
     }
   }

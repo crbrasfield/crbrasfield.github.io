@@ -32,6 +32,8 @@ p {
   color: #a3be8c; }
 
 .icon {
+  -webkit-filter: drop-shadow(2px 2px 2px #222);
+  filter: drop-shadow(2px 2px 2px #222);
   margin-top: 20px; }
 
 .icons {
@@ -56,12 +58,17 @@ ul {
     list-style-type: none;
     margin-top: 10px; }
 
+.container.secondary {
+  background: #2b303b;
+  color: white; }
+  .container.secondary h3 {
+    color: #c0c5ce; }
+
 .container .wrap {
   max-width: 1000px;
   padding: 40px 20px;
   margin: 0 auto;
-  overflow: auto;
-  border-bottom: 1px solid #8fa1b3; }
+  overflow: auto; }
   @media (max-width: 1000px) {
     .container .wrap {
       padding: 30px 40px; } }
@@ -127,7 +134,7 @@ pre {
   .row .column {
     flex: 1;
     padding: 0 5px; }
-    @media (max-width: 600px) {
+    @media (max-width: 650px) {
       .row .column {
         margin: 10px 0; } }
   @media (max-width: 650px) {

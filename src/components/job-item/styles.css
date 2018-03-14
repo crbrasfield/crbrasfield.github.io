@@ -1,8 +1,10 @@
 .card {
   margin-top: 20px;
-  border-left: 5px solid gray;
+  border-left: 5px solid #8fa1b3;
   padding-left: 10px;
   max-width: 700px; }
   .card a {
-    text-decoration: none;
-    color: darkcyan; }
+    transition: all 0.2s ease-in-out;
+    color: #8fa1b3; }
+    .card a:hover {
+      color: #a3be8c; }

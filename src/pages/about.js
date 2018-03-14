@@ -8,7 +8,31 @@ export default () => (
     <div>
       <div className="container primary">
         <div className="wrap">
-          <SlideShow />
+          <h1>Hi,</h1>
+          <div>
+            <h3>
+              I'm Chase!
+            </h3>
+            <br />
+            <p>
+              I'm currently a software engineer for TheraNest, a startup in downtown Birmingham.
+            </p>
+            <br />
+            <p>
+              I focus primarily on the
+              <b> front end development </b>
+              of our primary SaaS application. I have been working full time as a developer for right at two years.
+              I started as an intern at TheraNest in May 2016 and have since then earned the position of the primary front end developer for our US team.
+              I have spent the majority of my time working with our current front end stack - React/Redux and Backbone.js with a few UI libraries sprinkled in.
+              I've also recently took it upon myself to dive into our ASP.NET back end and start tackling feature development from a full stack approach.
+              I've also developed a small React Native application for TheraNest that we put on the app store about a year ago.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className="container primary">
+        <div className="wrap">
+          {/* <SlideShow /> */}
             <h1>About myself...</h1>
             <div>
               <h3>
@@ -57,6 +81,7 @@ export default () => (
               <ul>
                 <li>Hiking</li>                
                 <li>Ultimate Frisbee</li>
+                <li>Ping Pong</li>                
               </ul>
             </div>
           </div>

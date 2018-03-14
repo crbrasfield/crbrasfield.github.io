@@ -23,9 +23,9 @@ class App extends Component {
         <div>
           <Header />
           <div className="content">
-          <TransitionGroup enter exit>
-            <Routes />
-          </TransitionGroup>
+            <TransitionGroup enter exit>
+              <Routes />
+            </TransitionGroup>
           </div>
         </div>
       </HashRouter>

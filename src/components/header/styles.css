@@ -2,23 +2,24 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 100px;
+  height: 50px;
   max-width: 1000px;
   background-color: white;
   margin: 0 auto;
-  color: black;
-  padding: 0 20px;
-  border-bottom: 1px solid lightgray; }
+  color: #2b303b;
+  padding: 0 20px; }
   @media (max-width: 1000px) {
     .header .navbar {
       padding: 0 40px; } }
   .header .navbar a {
-    color: black;
+    color: #2b303b;
     text-decoration: none;
     width: 40px;
     text-align: center;
-    font-size: small; }
+    font-size: small;
+    font-weight: bold;
+    transition: all 0.2s ease-in-out; }
     .header .navbar a:hover {
-      border-bottom: 2px solid black; }
+      color: #8fa1b3; }
     .header .navbar a:not(:last-of-type) {
       margin-right: 20px; }

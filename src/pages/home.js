@@ -4,11 +4,18 @@ import highlight from 'highlight.js';
 import 'highlight.js/styles/ocean.css';
 import face from '../images/face.jpg';
 
+import code from '../images/icons/vscode.png'
+import chrome from '../images/icons/chrome.png'
+import command from '../images/icons/command.png'
+import krakin from '../images/icons/krakin.png'
+import slack from '../images/icons/slack.png'
+import spotify from '../images/icons/spotify.png'
+
 const codeText = () => (
-`import Engineer from "careers";
+`import Developer from "careers";
 import { skills } from "./technologies";
 
-class Chase extends Engineer {
+class Chase extends Developer {
   state = {
     name: "Chase Brasfield",
     from: "Birmingham, Al",
@@ -88,9 +95,9 @@ export default class Home extends React.Component {
             <h1 className="center">Technologies</h1>
             <div className="row center">
               <div className="column">
-                <h3>
+                <h4>
                   Everyday Use
-                </h3>
+                </h4>
                 <ul>
                   <li>React</li>
                   <li>Redux</li>
@@ -105,9 +112,9 @@ export default class Home extends React.Component {
                 </ul>
               </div>
               <div className="column">
-                <h3>
+                <h4>
                   Some use
-                </h3>
+                </h4>
                 <ul>
                   <li>React Native</li>              
                   <li>Node.js</li>
@@ -120,9 +127,9 @@ export default class Home extends React.Component {
                 </ul>
               </div>
               <div className="column">
-                <h3>
+                <h4>
                   Extras
-                </h3>
+                </h4>
                 <ul>
                   <li>Adobe Photoshop</li>
                   <li>Adobe Illustrator</li>
@@ -180,17 +187,35 @@ export default class Home extends React.Component {
           </div>
         </div>
         <div className="container secondary">
-          <div className="wrap">
+          <div className="wrap icons">
             <h1>My daily toolbelt</h1>
             <div className="row">
-              <div className="column">VS Code</div>
-              <div className="column">GitKraken</div>
-              <div className="column">CMD</div>          
+              <div className="column">
+                <img class="icon" src={code} />
+                <div>VS Code</div>
+              </div>
+              <div className="column">
+                <img class="icon" src={krakin} />
+                <div>GitKraken</div>
+              </div>
+              <div className="column">
+                <img class="icon" src={command} />
+                <div>CMD</div>
+              </div>          
             </div>
             <div className="row">
-              <div className="column">Spotify</div>
-              <div className="column">Chrome</div>
-              <div className="column">Slack</div>          
+              <div className="column">
+                <img class="icon" src={spotify} />
+                <div>Spotify</div>
+              </div>
+              <div className="column">
+                <img class="icon" src={chrome} />
+                <div>Chrome</div>
+              </div>
+              <div className="column">
+                <img class="icon" src={slack} />
+                <div>Slack</div>
+              </div>          
             </div>
           </div>
         </div>

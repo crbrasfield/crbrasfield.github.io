@@ -42,7 +42,7 @@ const   Routes = (props) =>
   )}/>
   <Route path="/about" render={() => (
     <Transition {...props} key="about">
-      <About />>
+      <About />
     </Transition>
   )}/>
   <Route path="/contact" render={() => (

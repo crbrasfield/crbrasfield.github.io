@@ -6,9 +6,9 @@ import { Link } from 'react-router-dom';
 export default () =>
   <div className="header">
     <div className="navbar">
-      <div className="logo">
+      <h3 className="logo">
         Chase Brasfield
-      </div>
+      </h3>
       <div className="links">
         <Link to="/">Home</Link>
         <Link to="about">About</Link>

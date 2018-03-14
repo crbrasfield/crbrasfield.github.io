@@ -6,11 +6,26 @@
   background-size: cover;
   margin: 20px;
   border-radius: 1%;
-  transition: all 1s ease;
-  transition: all 1s ease; }
+  position: absolute;
+  opacity: 1;
+  transition: opacity 2s ease-in-out; }
+  .picture.hidden {
+    opacity: 0; }
   @media (max-width: 1000px) {
     .picture {
-      height: 350px; } }
-  @media (max-width: 700px) {
+      height: 350px;
+      width: auto;
+      max-width: 300px; } }
+  @media (max-width: 650px) {
     .picture {
-      display: none; } }
+      margin: 20px 0;
+      max-width: none; } }
+
+.slideshow {
+  height: 500px; }
+  @media (max-width: 1000px) {
+    .slideshow {
+      height: 400px; } }
+  @media (max-width: 650px) {
+    .slideshow {
+      height: 380px; } }

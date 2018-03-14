@@ -16,10 +16,13 @@
     text-decoration: none;
     width: 40px;
     text-align: center;
-    font-size: small;
+    font-size: 14px;
     font-weight: bold;
     transition: all 0.2s ease-in-out; }
     .header .navbar a:hover {
       color: #8fa1b3; }
     .header .navbar a:not(:last-of-type) {
       margin-right: 20px; }
+
+.header .logo {
+  margin: 0; }

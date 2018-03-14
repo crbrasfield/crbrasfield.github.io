@@ -16,7 +16,7 @@ export default class SlideShow extends Component {
 	}
 
 	componentDidMount () {
-		this.interval = setInterval(this.rotatePicture, 6000);
+		this.interval = setInterval(this.rotatePicture, 5000);
 	}
 
 	rotatePicture = () => {
@@ -39,7 +39,12 @@ export default class SlideShow extends Component {
 	render () {
 		const img = this.images()[this.state.count];
 		return (
-			<div className="picture" style={{backgroundImage: `url(${img})`}} />            
+			<div className="slideshow">
+				{ this.images().map((image, index) => (
+					<img className={`picture ${index !== this.state.count ? 'hidden' : 'show'}`} src={image} />
+				))
+				}
+			</div>
 		)
 	}
 }

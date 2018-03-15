@@ -19,7 +19,7 @@ class Chase extends Developer {
   state = {
     name: "Chase Brasfield",
     from: "Birmingham, Al",
-    focus: "Front end development",
+    focus: "Front End Development",
     skills: ["React", "Redux", ...skills]
   }
 

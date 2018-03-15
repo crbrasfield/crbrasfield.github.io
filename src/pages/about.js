@@ -15,8 +15,8 @@ export default () => (
             </h4>
             <br />
             <p>
-              I'm currently a software engineer for
-              <a className="special" href="http://www.theranest.com">TheraNest</a>, a startup in downtown Birmingham.
+              I'm currently a software engineer
+              for <a className="special" href="http://www.theranest.com">TheraNest</a>, a startup in downtown Birmingham.
             </p>
             <br />
             <p>

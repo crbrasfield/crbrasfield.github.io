@@ -102,8 +102,8 @@ export default class Home extends React.Component {
               startDate="April 2016"
               endDate="June 2016"
             >
-              Hired on as an itern to develop a free mobile application using React Native.
-              The app was capabale of storing basic client data such as contact information,
+              Hired on as an intern to develop a free mobile application using React Native.
+              The app was capable of storing basic client data such as contact information,
               demographic information & progress notes. All data was encrypted and stored locally
               on the device. This was my first experience using React. In approximately two months,
               myself and another intern launched our first app to the app store.
@@ -134,7 +134,7 @@ export default class Home extends React.Component {
               startDate="August 2017"
               endDate="Current"
             >
-              Volunteering weekly at a highschool teaching CS to students using SNAP! & Python.
+              Volunteering weekly at a high school teaching CS to students using SNAP! & Python.
             </JobItem>
           </div>
         </div>

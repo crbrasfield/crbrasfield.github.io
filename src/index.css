@@ -20,21 +20,25 @@ h3 {
   color: #64666b; }
 
 h4 {
-  color: #8fa1b3; }
+  color: #d08770; }
 
 p {
-  margin: 2px 0; }
+  margin: 2px 0;
+  line-height: 1.5; }
 
 .small {
   font-size: 12px; }
 
 .special {
-  color: #a3be8c; }
+  color: #a3be8c !important; }
 
 .icon {
   -webkit-filter: drop-shadow(2px 2px 2px #222);
   filter: drop-shadow(2px 2px 2px #222);
-  margin-top: 20px; }
+  margin-top: 40px; }
+  @media (max-width: 650px) {
+    .icon {
+      margin-top: 20px; } }
 
 .icons {
   text-align: center; }
@@ -57,6 +61,9 @@ ul {
   ul li {
     list-style-type: none;
     margin-top: 10px; }
+
+.center-self {
+  align-self: center; }
 
 .container.secondary {
   background: #2b303b;
@@ -141,15 +148,18 @@ pre {
     .row {
       flex-direction: column; } }
 
-.social-icon {
+.social-icon, .social-icon-large {
   font-size: larger;
   margin-right: 20px; }
-  .social-icon.twitter {
+  .social-icon.twitter, .twitter.social-icon-large {
     color: #00aced; }
-  .social-icon.facebook {
+  .social-icon.facebook, .facebook.social-icon-large {
     color: #3b5998; }
-  .social-icon.linkedin {
+  .social-icon.linkedin, .linkedin.social-icon-large {
     color: #0077b5; }
+
+.social-icon-large {
+  font-size: 25px; }
 
 a:visited {
   color: inherit; }
@@ -159,7 +169,7 @@ a:visited {
   margin-top: 30px;
   margin: 30px 0;
   display: flex;
-  justify-content: space-around; }
+  justify-content: space-between; }
   .links .icon {
     margin: 0; }
 

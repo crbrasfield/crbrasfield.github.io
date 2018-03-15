@@ -15,7 +15,8 @@ export default () => (
             </h4>
             <br />
             <p>
-              I'm currently a software engineer for TheraNest, a startup in downtown Birmingham.
+              I'm currently a software engineer for
+              <a className="special" href="http://www.theranest.com">TheraNest</a>, a startup in downtown Birmingham.
             </p>
             <br />
             <p>
@@ -32,29 +33,22 @@ export default () => (
       <div className="container secondary">
         <div className="wrap">
           <div className="row">
-            <div className="column">
+            <div className="column center-self">
               <h1>About myself...</h1>
               <div>
                 <h4>
-                  Basically, I'm a 25 year old nerd living the dream.
+                  I'm basically a 25 year old nerd that loves the outdoors
+                  and working with technology.
                 </h4>
-                <div>
-                  I'm a Birmingham native with a passion for technology and videogames.
-                  I consider myself extremely lucky to be able to make a living working with computers.
-                </div>
+                <p>
+                  I'm a Birmingham native with a love for animals, music and videogames.
+                  Since most of my time during the week is spent inside looking at a computer monitor,
+                  I enjoy getting outside and being active.
+                </p>
                 <br />
-                <div>
-                  I spend most of my day is spent inside on the computer or playing video games, so I
-                  enjoy spending the rest of that time outdoors with my friends, family and dog.
-                </div>
-                <br />              
-                <div>
-                  I watch a lot of youtube and eat a lot of chipotle.
-                </div>
-                <br />
-                <div>
-                  As of March 31, 2018 I will be a husband!
-                </div>
+                <p>
+                  As of <a className="special" href="https://www.theknot.com/us/julianne-erwin-and-chase-brasfield-mar-2018-63098923-f66c-4131-a893-7000f24d7285">March 31, 2018</a> I will be a husband!
+                </p>
               </div>
             </div>
             <div className="column">

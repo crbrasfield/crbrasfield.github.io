@@ -12,7 +12,7 @@ import './styles.css';
 
 export default class SlideShow extends Component {
 	state = {
-			count: 0
+		count: 0
 	}
 
 	componentDidMount () {
@@ -20,7 +20,6 @@ export default class SlideShow extends Component {
 	}
 
 	rotatePicture = () => {
-		console.log(this.state.count);
 		this.setState((state) => ({
 			count: state.count == this.images().length - 1 ? 0 : state.count + 1
 		}));
@@ -41,7 +40,7 @@ export default class SlideShow extends Component {
 		return (
 			<div className="slideshow">
 				{ this.images().map((image, index) => (
-					<img className={`picture ${index !== this.state.count ? 'hidden' : 'show'}`} src={image} />
+					<img key={index} className={`picture ${index !== this.state.count ? 'hidden' : 'show'}`} src={image} />
 				))
 				}
 			</div>

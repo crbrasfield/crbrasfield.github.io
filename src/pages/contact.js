@@ -39,6 +39,11 @@ export default () => (
             <i className="social-icon linkedin large fab fa-linkedin"></i>        
           </a>
         </span>
+        <span>        
+          <a target="_blank" href="https://www.linkedin.com/in/chase-brasfield-b43a09118/">
+          <i className="social-icon-large white fab fa-github"></i>
+          </a>
+        </span>
         </div>
       </div>
     </div>

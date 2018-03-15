@@ -122,6 +122,7 @@ export default class Home extends React.Component {
               Engineering direction changed mid project, which led to taking on a new task
               of integrating React/Redux into an existing Backbone.js application. Currently introducing
               myself into the ASP.NET backend, enabling myself to work from a full stack approach.
+              Also spent time working on the static marketing site, as well as the Ionic mobile app.
               <br />
               <br />            
               <span className="small bold">*Much more information upon request</span>

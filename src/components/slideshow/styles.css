@@ -1,9 +1,6 @@
 .picture {
-  float: right;
   height: 500px;
   width: 400px;
-  background-position: center top;
-  background-size: cover;
   margin: 20px;
   border-radius: 1%;
   position: absolute;
@@ -13,19 +10,23 @@
     opacity: 0; }
   @media (max-width: 1000px) {
     .picture {
-      height: 350px;
-      width: auto;
+      height: auto;
+      width: 250px;
+      max-width: 300px; } }
+  @media (max-width: 1000px) {
+    .picture {
+      height: auto;
+      width: 250px;
       max-width: 300px; } }
   @media (max-width: 650px) {
     .picture {
-      margin: 20px 0;
-      max-width: none; } }
+      margin: 20px 0; } }
 
 .slideshow {
-  height: 500px; }
+  height: 540px; }
   @media (max-width: 1000px) {
     .slideshow {
-      height: 400px; } }
+      height: 350px; } }
   @media (max-width: 650px) {
     .slideshow {
-      height: 380px; } }
+      height: 350px; } }
